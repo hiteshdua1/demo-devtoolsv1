@@ -23,12 +23,11 @@ function App() {
         </a>
       </header>
       <br/>
-      <CssDebuggingExample/>
+      <LoggingExample/>
       <br/>
       <LiveExpressionExample/>
       <br/>
-      <LoggingExample/>
-      <br/>
+      <CssDebuggingExample/>
     </div>
   );
 }
