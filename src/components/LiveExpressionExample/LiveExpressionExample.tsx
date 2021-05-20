@@ -6,9 +6,9 @@ const LiveExpressionExample: React.FC = () => {
 
   return (
     <div className={styles.LiveExpressionComponent}>
-      <h3>Live expression Example</h3>
+      <h2>Live expression Example</h2>
       <p>You clicked {count} times</p>
-      <button onClick={() => setCount(count + 1)}>Click me</button>
+      <button onClick={() => setCount(count + 1)}>Increment Me</button>
     </div>
   );
 } ;

@@ -2,6 +2,8 @@ import React from 'react';
 import logo from './logo.svg';
 import './App.css';
 import LiveExpressionExample from './components/LiveExpressionExample/LiveExpressionExample';
+import LoggingExample from './components/LoggingExample/LoggingExample';
+import CssDebuggingExample from './components/CssDebuggingExample/CssDebuggingExample';
 
 function App() {
   return (
@@ -13,14 +15,20 @@ function App() {
         </p>
         <a
           className="App-link"
-          href="https://reactjs.org"
+          href="http://localhost:8000"
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn React
+          Learn DevTools
         </a>
       </header>
+      <br/>
+      <CssDebuggingExample/>
+      <br/>
       <LiveExpressionExample/>
+      <br/>
+      <LoggingExample/>
+      <br/>
     </div>
   );
 }
